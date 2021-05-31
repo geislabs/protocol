@@ -1,0 +1,22 @@
+{
+    "private": true,
+    "name": "@geislabs/geis-e2e",
+    "version": "0.0.45",
+    "description": "> TODO: description",
+    "author": "mads hargreave <mads.hargreave@gmail.com>",
+    "homepage": "",
+    "repository": "git://github.com/geislabs/geis.git",
+    "license": "ISC",
+    "directories": {
+        "test": "test"
+    },
+    "files": [],
+    "publishConfig": {
+        "registry": "http://registry.npmjs.org/",
+        "access": "public"
+    },
+    "scripts": {},
+    "devDependencies": {
+        "@geislabs/geis": "^0.0.45"
+    }
+}
