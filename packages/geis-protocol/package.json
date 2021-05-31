@@ -1,11 +1,11 @@
 {
     "private": false,
-    "name": "@geislabs/geis-protocol",
+    "name": "@geislabs/protocol",
     "version": "0.0.46",
     "description": "> TODO: description",
     "author": "mads hargreave <mads.hargreave@gmail.com>",
     "homepage": "",
-    "repository": "git://github.com/geislabs/geis.git",
+    "repository": "git://github.com/geislabs/protocol.git",
     "license": "ISC",
     "main": "dist/index.js",
     "directories": {
