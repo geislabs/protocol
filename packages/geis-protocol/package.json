@@ -25,10 +25,7 @@
         "watch": "tsc --watch"
     },
     "dependencies": {
-        "inversify": "^5.0.5",
         "is-promise": "^4.0.0"
     },
-    "devDependencies": {
-        "@geislabs/geis-type": "^0.0.45"
-    }
+    "devDependencies": {}
 }
