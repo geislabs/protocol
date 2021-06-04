@@ -69,7 +69,7 @@ export interface ProtocolFn<
 
 export interface ProtocolResponse<TValue = unknown> extends Iterable<TValue> {
     // data: TValue
-    parse: (selector: string) => TValue
+    get: (selector: string) => TValue
 }
 
 // @ts-expect-error

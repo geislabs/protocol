@@ -27,11 +27,11 @@ export function proxify<T extends ProtocolResponse>(value: T): T {
                 return Reflect.get(...arguments)
             }
 
-            if (!value.parse) {
+            if (!value.get) {
                 return
             }
 
-            return value.parse(prop.toString())
+            return value.get(prop.toString())
         },
     })
 }
