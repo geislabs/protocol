@@ -61,7 +61,7 @@ export const createFetch = (
                 yield {
                     data: response,
                     request,
-                    parse: () => 'parsed',
+                    get: () => 'parsed',
                     [Symbol.iterator]: () => ({
                         next: () => ({ done: true, value: null }),
                     }),
@@ -87,7 +87,7 @@ export const createFetch = (
                 yield {
                     data: data,
                     request,
-                    parse: (selector) => data[selector] ?? null,
+                    get: (selector) => data[selector] ?? null,
                     [Symbol.iterator]: iterator,
                 }
             },
